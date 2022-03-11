@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+#header {
+  height: 100vh;
+  background-image: url(../images/background.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  margin: 0 100px;
+}
+
+.logo {
+  margin-top: 30px;
+  width: 100px;
+}
+
+.header-text {
+  max-width: 350px;
+  margin-top: 140px;
+}
+
+.header-text h1 {
+  font-size: 34px;
+}
+
+.square {
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+  background: #f67c92;
+  margin: 15px 0;
+}
+
+.btn {
+  padding: 18px 40px;
+  background: transparent;
+  outline: none;
+  border: 2px solid #f67c92;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+p {
+  font-size: 14px;
+  line-height: 18px;
+  color: #8e8e8e;
+}
+
+.header-text button {
+  margin: 20px 0 60px;
+}
+
+.line-1,
+.line-2,
+.line-3 {
+  background: #f67c92;
+  display: inline-block;
+}
+
+.line-1 {
+  width: 15px;
+  height: 15px;
+}
+
+.line-2,
+.line-3 {
+  width: 80px;
+  height: 1px;
+}
+
+.line {
+  line-height: 8px;
+}
+
+/* navigation */
+
+#side-nav {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  right: -250px;
+  top: 0;
+  background: #f67c92;
+  z-index: 2;
+  transition: all ease-in 0.5s;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 50px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+#menu-btn {
+  width: 50px;
+  position: fixed;
+  right: 65px;
+  top: 35px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+/* 
+=========
+about
+=========
+ */
+
+#about,
+#offer {
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-left-col,
+.about-right-col {
+  flex-basis: 50%;
+}
+
+.about-left-col img {
+  width: 100%;
+}
+
+.about-right-col {
+  text-align: right;
+}
+
+.about-text {
+  max-width: 500px;
+  margin: 0 100px 0 0;
+  display: inline-block;
+}
+
+.about-text h2 {
+  font-size: 34px;
+}
+
+.about-text h3 {
+  margin: 50px 0 10px;
+  font-size: 20px;
+  font-style: italic;
+}
+.about-text .name {
+  margin: 50px 0 10px;
+  font-size: 16px;
+  font-style: italic;
+  color: #8e8e8e;
+}
+
+/* 
+=============
+Features
+=============
+*/
+
+#features {
+  padding: 50px 0;
+}
+
+.feature-row {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature-col {
+  flex-basis: 25%;
+  text-align: center;
+}
+
+.feature-col img {
+  width: 100%;
+}
+
+.feature-col h4 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.feature-btn {
+  margin: 80px auto 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.feature-btn .line {
+  text-align: right;
+  display: inline-block;
+  margin-right: 25px;
+}
+
+/* courses */
+
+#courses {
+  padding: 100px 0;
+}
+
+.course-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.course-col {
+  flex-basis: 50%;
+}
+
+.course-col img {
+  width: 100%;
+}
+.courst-text {
+  max-width: 350px;
+}
+.courst-text .btn {
+  margin: 30px 0;
+}
+
+/* offer */
+
+#offer button {
+  margin: 30px 0;
+}
+
+/* contact */
+.contact-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-col{
+    flex-basis: 50%;
+}
+
+.contact-col img{
+    width: 100%;
+}
+
+form{
+    max-width: 350px;
+    margin: 30px 0;
+
+}
+form input{
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 5px;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    border: 2px solid #f67c92;
+}
+
+.btn-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.btn-box button{
+    flex-basis: 48%;
+    padding: 18px 0;
+
+}
+
+/* footer */
+#footer{
+    padding: 50px 0 30px;
+}
+
+hr{
+    width: 100%;
+    border: 0;
+    border-top: 1px soild #f67c92;
+}
+
+.footer-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-column-5{
+    flex-basis: 50%;
+    
+}
+.footer-column-3{
+    flex-basis: 35%;
+}
